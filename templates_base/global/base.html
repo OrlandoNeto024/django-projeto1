@@ -6,14 +6,8 @@
 
     <main class="content-container">
         <div class="main-content main-content-list container">
-            {% block 'content' %}
-            {% include 'recipes/partials/recipe.html' %}
-            {% include 'recipes/partials/recipe.html' %}
-            {% include 'recipes/partials/recipe.html' %}
-            {% include 'recipes/partials/recipe.html' %}
-            {% include 'recipes/partials/recipe.html' %}
-            {% include 'recipes/partials/recipe.html' %}
-            {% endblock 'content' %}
+            {% block 'content' %}{% endblock 'content' %}
+            
         </div>
     </main>
     {% include 'recipes/partials/footer.html' %}
