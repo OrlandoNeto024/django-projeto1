@@ -2,15 +2,9 @@
         <main class="content-container">
             <div class="main-content main-content-list container">
                 {% block 'content' %}
+                {% for recipe in recipes %}
                 {% include 'recipes/partials/recipe.html' %}
-                {% include 'recipes/partials/recipe.html' %}
-                {% include 'recipes/partials/recipe.html' %}
-                {% include 'recipes/partials/recipe.html' %}
-                {% include 'recipes/partials/recipe.html' %}
-                {% include 'recipes/partials/recipe.html' %}
-                {% include 'recipes/partials/recipe.html' %}
-                {% include 'recipes/partials/recipe.html' %}
-                {% include 'recipes/partials/recipe.html' %}
+                {% endfor %}
                 {% endblock 'content' %}
             </div>
         </main>
